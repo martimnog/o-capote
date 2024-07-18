@@ -1,0 +1,233 @@
+﻿
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.ocapote-serif{font-family:serif}.ocapote-sans-serif{font-family:sans-serif}.ocapote-cursive{font-family:cursive}.ocapote-monospace{font-family:monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.ocapote-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.ocapote-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.ocapote-table,.ocapote-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.ocapote-table-all{border:1px solid #ccc}
+.ocapote-bordered tr,.ocapote-table-all tr{border-bottom:1px solid #ddd}.ocapote-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.ocapote-table-all tr:nth-child(odd){background-color:#fff}.ocapote-table-all tr:nth-child(even){background-color:#f1f1f1}
+.ocapote-hoverable tbody tr:hover,.ocapote-ul.ocapote-hoverable li:hover{background-color:#ccc}.ocapote-centered tr th,.ocapote-centered tr td{text-align:center}
+.ocapote-table td,.ocapote-table th,.ocapote-table-all td,.ocapote-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.ocapote-table th:first-child,.ocapote-table td:first-child,.ocapote-table-all th:first-child,.ocapote-table-all td:first-child{padding-left:16px}
+.ocapote-btn,.ocapote-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.ocapote-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.ocapote-btn,.ocapote-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.ocapote-disabled,.ocapote-btn:disabled,.ocapote-button:disabled{cursor:not-allowed;opacity:0.3}.ocapote-disabled *,:disabled *{pointer-events:none}
+.ocapote-btn.ocapote-disabled:hover,.ocapote-btn:disabled:hover{box-shadow:none}
+.ocapote-badge,.ocapote-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.ocapote-badge{border-radius:50%}
+.ocapote-ul{list-style-type:none;padding:0;margin:0}.ocapote-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.ocapote-ul li:last-child{border-bottom:none}
+.ocapote-tooltip,.ocapote-display-container{position:relative}.ocapote-tooltip .ocapote-text{display:none}.ocapote-tooltip:hover .ocapote-text{display:inline-block}
+.ocapote-ripple:active{opacity:0.5}.ocapote-ripple{transition:opacity 0s}
+.ocapote-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.ocapote-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.ocapote-dropdown-click,.ocapote-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.ocapote-dropdown-hover:hover .ocapote-dropdown-content{display:block}
+.ocapote-dropdown-hover:first-child,.ocapote-dropdown-click:hover{background-color:#ccc;color:#000}
+.ocapote-dropdown-hover:hover > .ocapote-button:first-child,.ocapote-dropdown-click:hover > .ocapote-button:first-child{background-color:#ccc;color:#000}
+.ocapote-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.ocapote-check,.ocapote-radio{width:24px;height:24px;position:relative;top:6px}
+.ocapote-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.ocapote-bar-block .ocapote-dropdown-hover,.ocapote-bar-block .ocapote-dropdown-click{width:100%}
+.ocapote-bar-block .ocapote-dropdown-hover .ocapote-dropdown-content,.ocapote-bar-block .ocapote-dropdown-click .ocapote-dropdown-content{min-width:100%}
+.ocapote-bar-block .ocapote-dropdown-hover .ocapote-button,.ocapote-bar-block .ocapote-dropdown-click .ocapote-button{width:100%;text-align:left;padding:8px 16px}
+.ocapote-main,#main{transition:margin-left .4s}
+.ocapote-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.ocapote-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.ocapote-bar{width:100%;overflow:hidden}.ocapote-center .ocapote-bar{display:inline-block;width:auto}
+.ocapote-bar .ocapote-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.ocapote-bar .ocapote-dropdown-hover,.ocapote-bar .ocapote-dropdown-click{position:static;float:left}
+.ocapote-bar .ocapote-button{white-space:normal}
+.ocapote-bar-block .ocapote-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.ocapote-bar-block.ocapote-center .ocapote-bar-item{text-align:center}.ocapote-block{display:block;width:100%}
+.ocapote-responsive{display:block;overflow-x:auto}
+.ocapote-container:after,.ocapote-container:before,.ocapote-panel:after,.ocapote-panel:before,.ocapote-row:after,.ocapote-row:before,.ocapote-row-padding:after,.ocapote-row-padding:before,
+.ocapote-cell-row:before,.ocapote-cell-row:after,.ocapote-clear:after,.ocapote-clear:before,.ocapote-bar:before,.ocapote-bar:after{content:"";display:table;clear:both}
+.ocapote-col,.ocapote-half,.ocapote-third,.ocapote-twothird,.ocapote-threequarter,.ocapote-quarter{float:left;width:100%}
+.ocapote-col.s1{width:8.33333%}.ocapote-col.s2{width:16.66666%}.ocapote-col.s3{width:24.99999%}.ocapote-col.s4{width:33.33333%}
+.ocapote-col.s5{width:41.66666%}.ocapote-col.s6{width:49.99999%}.ocapote-col.s7{width:58.33333%}.ocapote-col.s8{width:66.66666%}
+.ocapote-col.s9{width:74.99999%}.ocapote-col.s10{width:83.33333%}.ocapote-col.s11{width:91.66666%}.ocapote-col.s12{width:99.99999%}
+@media (min-width:601px){.ocapote-col.m1{width:8.33333%}.ocapote-col.m2{width:16.66666%}.ocapote-col.m3,.ocapote-quarter{width:24.99999%}.ocapote-col.m4,.ocapote-third{width:33.33333%}
+.ocapote-col.m5{width:41.66666%}.ocapote-col.m6,.ocapote-half{width:49.99999%}.ocapote-col.m7{width:58.33333%}.ocapote-col.m8,.ocapote-twothird{width:66.66666%}
+.ocapote-col.m9,.ocapote-threequarter{width:74.99999%}.ocapote-col.m10{width:83.33333%}.ocapote-col.m11{width:91.66666%}.ocapote-col.m12{width:99.99999%}}
+@media (min-width:993px){.ocapote-col.l1{width:8.33333%}.ocapote-col.l2{width:16.66666%}.ocapote-col.l3{width:24.99999%}.ocapote-col.l4{width:33.33333%}
+.ocapote-col.l5{width:41.66666%}.ocapote-col.l6{width:49.99999%}.ocapote-col.l7{width:58.33333%}.ocapote-col.l8{width:66.66666%}
+.ocapote-col.l9{width:74.99999%}.ocapote-col.l10{width:83.33333%}.ocapote-col.l11{width:91.66666%}.ocapote-col.l12{width:99.99999%}}
+.ocapote-rest{overflow:hidden}.ocapote-stretch{margin-left:-16px;margin-right:-16px}
+.ocapote-content,.ocapote-auto{margin-left:auto;margin-right:auto}.ocapote-content{max-width:980px}.ocapote-auto{max-width:1140px}
+.ocapote-cell-row{display:table;width:100%}.ocapote-cell{display:table-cell}
+.ocapote-cell-top{vertical-align:top}.ocapote-cell-middle{vertical-align:middle}.ocapote-cell-bottom{vertical-align:bottom}
+.ocapote-hide{display:none!important}.ocapote-show-block,.ocapote-show{display:block!important}.ocapote-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.ocapote-auto{max-width:95%}}
+@media (max-width:600px){.ocapote-modal-content{margin:0 10px;width:auto!important}.ocapote-modal{padding-top:30px}
+.ocapote-dropdown-hover.ocapote-mobile .ocapote-dropdown-content,.ocapote-dropdown-click.ocapote-mobile .ocapote-dropdown-content{position:relative}	
+.ocapote-hide-small{display:none!important}.ocapote-mobile{display:block;width:100%!important}.ocapote-bar-item.ocapote-mobile,.ocapote-dropdown-hover.ocapote-mobile,.ocapote-dropdown-click.ocapote-mobile{text-align:center}
+.ocapote-dropdown-hover.ocapote-mobile,.ocapote-dropdown-hover.ocapote-mobile .ocapote-btn,.ocapote-dropdown-hover.ocapote-mobile .ocapote-button,.ocapote-dropdown-click.ocapote-mobile,.ocapote-dropdown-click.ocapote-mobile .ocapote-btn,.ocapote-dropdown-click.ocapote-mobile .ocapote-button{width:100%}}
+@media (max-width:768px){.ocapote-modal-content{width:500px}.ocapote-modal{padding-top:50px}}
+@media (min-width:993px){.ocapote-modal-content{width:900px}.ocapote-hide-large{display:none!important}.ocapote-sidebar.ocapote-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.ocapote-hide-medium{display:none!important}}
+@media (max-width:992px){.ocapote-sidebar.ocapote-collapse{display:none}.ocapote-main{margin-left:0!important;margin-right:0!important}.ocapote-auto{max-width:100%}}
+.ocapote-top,.ocapote-bottom{position:fixed;width:100%;z-index:1}.ocapote-top{top:0}.ocapote-bottom{bottom:0}
+.ocapote-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.ocapote-display-topleft{position:absolute;left:0;top:0}.ocapote-display-topright{position:absolute;right:0;top:0}
+.ocapote-display-bottomleft{position:absolute;left:0;bottom:0}.ocapote-display-bottomright{position:absolute;right:0;bottom:0}
+.ocapote-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.ocapote-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.ocapote-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.ocapote-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.ocapote-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.ocapote-display-container:hover .ocapote-display-hover{display:block}.ocapote-display-container:hover span.ocapote-display-hover{display:inline-block}.ocapote-display-hover{display:none}
+.ocapote-display-position{position:absolute}
+.ocapote-circle{border-radius:50%}
+.ocapote-round-small{border-radius:2px}.ocapote-round,.ocapote-round-medium{border-radius:4px}.ocapote-round-large{border-radius:8px}.ocapote-round-xlarge{border-radius:16px}.ocapote-round-xxlarge{border-radius:32px}
+.ocapote-row-padding,.ocapote-row-padding>.ocapote-half,.ocapote-row-padding>.ocapote-third,.ocapote-row-padding>.ocapote-twothird,.ocapote-row-padding>.ocapote-threequarter,.ocapote-row-padding>.ocapote-quarter,.ocapote-row-padding>.ocapote-col{padding:0 8px}
+.ocapote-container,.ocapote-panel{padding:0.01em 16px}.ocapote-panel{margin-top:16px;margin-bottom:16px}
+.ocapote-code,.ocapote-codespan{font-family:Consolas,"courier new";font-size:16px}
+.ocapote-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.ocapote-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.ocapote-card,.ocapote-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.ocapote-card-4,.ocapote-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.ocapote-spin{animation:ocapote-spin 2s infinite linear}@keyframes ocapote-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.ocapote-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.ocapote-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.ocapote-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.ocapote-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.ocapote-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.ocapote-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.ocapote-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.ocapote-animate-input{transition:width 0.4s ease-in-out}.ocapote-animate-input:focus{width:100%!important}
+.ocapote-opacity,.ocapote-hover-opacity:hover{opacity:0.60}.ocapote-opacity-off,.ocapote-hover-opacity-off:hover{opacity:1}
+.ocapote-opacity-max{opacity:0.25}.ocapote-opacity-min{opacity:0.75}
+.ocapote-greyscale-max,.ocapote-grayscale-max,.ocapote-hover-greyscale:hover,.ocapote-hover-grayscale:hover{filter:grayscale(100%)}
+.ocapote-greyscale,.ocapote-grayscale{filter:grayscale(75%)}.ocapote-greyscale-min,.ocapote-grayscale-min{filter:grayscale(50%)}
+.ocapote-sepia{filter:sepia(75%)}.ocapote-sepia-max,.ocapote-hover-sepia:hover{filter:sepia(100%)}.ocapote-sepia-min{filter:sepia(50%)}
+.ocapote-tiny{font-size:10px!important}.ocapote-small{font-size:12px!important}.ocapote-medium{font-size:15px!important}.ocapote-large{font-size:18px!important}
+.ocapote-xlarge{font-size:24px!important}.ocapote-xxlarge{font-size:36px!important}.ocapote-xxxlarge{font-size:48px!important}.ocapote-jumbo{font-size:64px!important}
+.ocapote-left-align{text-align:left!important}.ocapote-right-align{text-align:right!important}.ocapote-justify{text-align:justify!important}.ocapote-center{text-align:center!important}
+.ocapote-border-0{border:0!important}.ocapote-border{border:1px solid #ccc!important}
+.ocapote-border-top{border-top:1px solid #ccc!important}.ocapote-border-bottom{border-bottom:1px solid #ccc!important}
+.ocapote-border-left{border-left:1px solid #ccc!important}.ocapote-border-right{border-right:1px solid #ccc!important}
+.ocapote-topbar{border-top:6px solid #ccc!important}.ocapote-bottombar{border-bottom:6px solid #ccc!important}
+.ocapote-leftbar{border-left:6px solid #ccc!important}.ocapote-rightbar{border-right:6px solid #ccc!important}
+.ocapote-section,.ocapote-code{margin-top:16px!important;margin-bottom:16px!important}
+.ocapote-margin{margin:16px!important}.ocapote-margin-top{margin-top:16px!important}.ocapote-margin-bottom{margin-bottom:16px!important}
+.ocapote-margin-left{margin-left:16px!important}.ocapote-margin-right{margin-right:16px!important}
+.ocapote-padding-small{padding:4px 8px!important}.ocapote-padding{padding:8px 16px!important}.ocapote-padding-large{padding:12px 24px!important}
+.ocapote-padding-16{padding-top:16px!important;padding-bottom:16px!important}.ocapote-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.ocapote-padding-32{padding-top:32px!important;padding-bottom:32px!important}.ocapote-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.ocapote-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.ocapote-padding-top-64{padding-top:64px!important}.ocapote-padding-top-48{padding-top:48px!important}
+.ocapote-padding-top-32{padding-top:32px!important}.ocapote-padding-top-24{padding-top:24px!important}
+.ocapote-left{float:left!important}.ocapote-right{float:right!important}
+.ocapote-button:hover{color:#000!important;background-color:#ccc!important}
+.ocapote-transparent,.ocapote-hover-none:hover{background-color:transparent!important}
+.ocapote-hover-none:hover{box-shadow:none!important}
+/* Colors */
+.ocapote-amber,.ocapote-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.ocapote-aqua,.ocapote-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.ocapote-blue,.ocapote-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.ocapote-light-blue,.ocapote-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.ocapote-brown,.ocapote-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.ocapote-cyan,.ocapote-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.ocapote-blue-grey,.ocapote-hover-blue-grey:hover,.ocapote-blue-gray,.ocapote-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.ocapote-green,.ocapote-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.ocapote-light-green,.ocapote-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.ocapote-indigo,.ocapote-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.ocapote-khaki,.ocapote-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.ocapote-lime,.ocapote-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.ocapote-orange,.ocapote-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.ocapote-deep-orange,.ocapote-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.ocapote-pink,.ocapote-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.ocapote-purple,.ocapote-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.ocapote-deep-purple,.ocapote-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.ocapote-red,.ocapote-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.ocapote-sand,.ocapote-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.ocapote-teal,.ocapote-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.ocapote-yellow,.ocapote-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.ocapote-white,.ocapote-hover-white:hover{color:#000!important;background-color:#fff!important}
+.ocapote-black,.ocapote-hover-black:hover{color:#fff!important;background-color:#000!important}
+.ocapote-grey,.ocapote-hover-grey:hover,.ocapote-gray,.ocapote-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.ocapote-light-grey,.ocapote-hover-light-grey:hover,.ocapote-light-gray,.ocapote-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.ocapote-dark-grey,.ocapote-hover-dark-grey:hover,.ocapote-dark-gray,.ocapote-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.ocapote-pale-red,.ocapote-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.ocapote-pale-green,.ocapote-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.ocapote-pale-yellow,.ocapote-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.ocapote-pale-blue,.ocapote-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.ocapote-text-amber,.ocapote-hover-text-amber:hover{color:#ffc107!important}
+.ocapote-text-aqua,.ocapote-hover-text-aqua:hover{color:#00ffff!important}
+.ocapote-text-blue,.ocapote-hover-text-blue:hover{color:#2196F3!important}
+.ocapote-text-light-blue,.ocapote-hover-text-light-blue:hover{color:#87CEEB!important}
+.ocapote-text-brown,.ocapote-hover-text-brown:hover{color:#795548!important}
+.ocapote-text-cyan,.ocapote-hover-text-cyan:hover{color:#00bcd4!important}
+.ocapote-text-blue-grey,.ocapote-hover-text-blue-grey:hover,.ocapote-text-blue-gray,.ocapote-hover-text-blue-gray:hover{color:#607d8b!important}
+.ocapote-text-green,.ocapote-hover-text-green:hover{color:#4CAF50!important}
+.ocapote-text-light-green,.ocapote-hover-text-light-green:hover{color:#8bc34a!important}
+.ocapote-text-indigo,.ocapote-hover-text-indigo:hover{color:#3f51b5!important}
+.ocapote-text-khaki,.ocapote-hover-text-khaki:hover{color:#b4aa50!important}
+.ocapote-text-lime,.ocapote-hover-text-lime:hover{color:#cddc39!important}
+.ocapote-text-orange,.ocapote-hover-text-orange:hover{color:#ff9800!important}
+.ocapote-text-deep-orange,.ocapote-hover-text-deep-orange:hover{color:#ff5722!important}
+.ocapote-text-pink,.ocapote-hover-text-pink:hover{color:#e91e63!important}
+.ocapote-text-purple,.ocapote-hover-text-purple:hover{color:#9c27b0!important}
+.ocapote-text-deep-purple,.ocapote-hover-text-deep-purple:hover{color:#673ab7!important}
+.ocapote-text-red,.ocapote-hover-text-red:hover{color:#f44336!important}
+.ocapote-text-sand,.ocapote-hover-text-sand:hover{color:#fdf5e6!important}
+.ocapote-text-teal,.ocapote-hover-text-teal:hover{color:#009688!important}
+.ocapote-text-yellow,.ocapote-hover-text-yellow:hover{color:#d2be0e!important}
+.ocapote-text-white,.ocapote-hover-text-white:hover{color:#fff!important}
+.ocapote-text-black,.ocapote-hover-text-black:hover{color:#000!important}
+.ocapote-text-grey,.ocapote-hover-text-grey:hover,.ocapote-text-gray,.ocapote-hover-text-gray:hover{color:#757575!important}
+.ocapote-text-light-grey,.ocapote-hover-text-light-grey:hover,.ocapote-text-light-gray,.ocapote-hover-text-light-gray:hover{color:#f1f1f1!important}
+.ocapote-text-dark-grey,.ocapote-hover-text-dark-grey:hover,.ocapote-text-dark-gray,.ocapote-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.ocapote-border-amber,.ocapote-hover-border-amber:hover{border-color:#ffc107!important}
+.ocapote-border-aqua,.ocapote-hover-border-aqua:hover{border-color:#00ffff!important}
+.ocapote-border-blue,.ocapote-hover-border-blue:hover{border-color:#2196F3!important}
+.ocapote-border-light-blue,.ocapote-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.ocapote-border-brown,.ocapote-hover-border-brown:hover{border-color:#795548!important}
+.ocapote-border-cyan,.ocapote-hover-border-cyan:hover{border-color:#00bcd4!important}
+.ocapote-border-blue-grey,.ocapote-hover-border-blue-grey:hover,.ocapote-border-blue-gray,.ocapote-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.ocapote-border-green,.ocapote-hover-border-green:hover{border-color:#4CAF50!important}
+.ocapote-border-light-green,.ocapote-hover-border-light-green:hover{border-color:#8bc34a!important}
+.ocapote-border-indigo,.ocapote-hover-border-indigo:hover{border-color:#3f51b5!important}
+.ocapote-border-khaki,.ocapote-hover-border-khaki:hover{border-color:#f0e68c!important}
+.ocapote-border-lime,.ocapote-hover-border-lime:hover{border-color:#cddc39!important}
+.ocapote-border-orange,.ocapote-hover-border-orange:hover{border-color:#ff9800!important}
+.ocapote-border-deep-orange,.ocapote-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.ocapote-border-pink,.ocapote-hover-border-pink:hover{border-color:#e91e63!important}
+.ocapote-border-purple,.ocapote-hover-border-purple:hover{border-color:#9c27b0!important}
+.ocapote-border-deep-purple,.ocapote-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.ocapote-border-red,.ocapote-hover-border-red:hover{border-color:#f44336!important}
+.ocapote-border-sand,.ocapote-hover-border-sand:hover{border-color:#fdf5e6!important}
+.ocapote-border-teal,.ocapote-hover-border-teal:hover{border-color:#009688!important}
+.ocapote-border-yellow,.ocapote-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.ocapote-border-white,.ocapote-hover-border-white:hover{border-color:#fff!important}
+.ocapote-border-black,.ocapote-hover-border-black:hover{border-color:#000!important}
+.ocapote-border-grey,.ocapote-hover-border-grey:hover,.ocapote-border-gray,.ocapote-hover-border-gray:hover{border-color:#9e9e9e!important}
+.ocapote-border-light-grey,.ocapote-hover-border-light-grey:hover,.ocapote-border-light-gray,.ocapote-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.ocapote-border-dark-grey,.ocapote-hover-border-dark-grey:hover,.ocapote-border-dark-gray,.ocapote-hover-border-dark-gray:hover{border-color:#616161!important}
+.ocapote-border-pale-red,.ocapote-hover-border-pale-red:hover{border-color:#ffe7e7!important}.ocapote-border-pale-green,.ocapote-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.ocapote-border-pale-yellow,.ocapote-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.ocapote-border-pale-blue,.ocapote-hover-border-pale-blue:hover{border-color:#e7ffff!important}
